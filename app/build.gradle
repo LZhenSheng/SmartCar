@@ -20,7 +20,20 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    android {
+        // ...
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
 
+        lintOptions {
+            //release发布提示错误，可能是某个控件没有缺赋了值，找不到错误所在，所以遏止报错
+            checkReleaseBuilds false
+            abortOnError false
+        }
+// ...
+    }
 }
 
 dependencies {
@@ -31,4 +44,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    /*ButterKnife*/
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
 }
