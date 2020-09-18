@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--设置按钮-->
+    <item
+        android:id="@+id/action_steering_wheel"
+        android:icon="@mipmap/steeringwheel"
+        app:showAsAction="always"
+        android:title="TODO" />
+    <!--设置按钮-->
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@mipmap/settings"
+        app:showAsAction="always"
+        android:title="TODO" />
+</menu>

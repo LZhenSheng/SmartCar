@@ -83,7 +83,7 @@
         android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/shape_button"
+        android:background="@drawable/shape_button_radius_all"
         android:text="登录"/>
     <View
         android:layout_width="match_parent"
