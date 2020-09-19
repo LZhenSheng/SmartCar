@@ -29,6 +29,7 @@ public class MainActivity extends BaseTitleActivity {
         switch (item.getItemId()) {
             case R.id.action_steering_wheel:
                 startActivity(MainOtherActivity.class);
+                finish();
                 break;
         }
         return super.onOptionsItemSelected(item);
