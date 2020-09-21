@@ -96,6 +96,9 @@ public class MainOtherActivity extends BaseTitleActivity {
                 startActivity(MainActivity.class);
                 finish();
                 break;
+            case R.id.action_settings:
+                startActivity(SettingActivity.class);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

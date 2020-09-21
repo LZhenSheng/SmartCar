@@ -11,6 +11,7 @@ import com.example.smartcar.R;
 
 public class MainActivity extends BaseTitleActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +33,9 @@ public class MainActivity extends BaseTitleActivity {
             case R.id.action_steering_wheel:
                 startActivity(MainOtherActivity.class);
                 finish();
+                break;
+            case R.id.action_settings:
+                startActivity(SettingActivity.class);
                 break;
         }
         return super.onOptionsItemSelected(item);
