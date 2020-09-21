@@ -1,14 +1,15 @@
-package com.example.smartcar;
+package com.example.smartcar.activity;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.smartcar.activity.base.BaseTitleActivity;
+import com.example.smartcar.R;
 
 import butterknife.BindView;
 import butterknife.OnClick;

@@ -1,11 +1,12 @@
-package com.example.smartcar;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.smartcar.activity;
 
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.Button;
+
+import com.example.smartcar.activity.base.BaseActivity;
+import com.example.smartcar.R;
 
 import butterknife.BindView;
 import butterknife.OnClick;

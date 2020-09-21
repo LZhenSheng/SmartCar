@@ -1,6 +1,8 @@
-package com.example.smartcar;
+package com.example.smartcar.activity.base;
 
 import androidx.appcompat.widget.Toolbar;
+
+import com.example.smartcar.R;
 
 import butterknife.BindView;
 
