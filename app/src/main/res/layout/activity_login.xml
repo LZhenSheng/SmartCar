@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:text="用户名"/>
         <EditText
+            android:id="@+id/account"
             android:textStyle="bold"
             android:textColor="#417873"
             android:layout_width="300dp"
@@ -58,6 +59,7 @@
             android:layout_height="wrap_content"
             android:text="密    码"/>
         <EditText
+            android:id="@+id/password"
             android:textStyle="bold"
             android:textColor="#417873"
             android:inputType="textPassword"
