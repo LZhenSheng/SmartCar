@@ -7,6 +7,11 @@
     android:layout_height="match_parent"
     android:background="#CCCCCC"
     tools:context=".activity.LoginActivity">
+    <Button
+        android:id="@+id/openFaceActivity"
+        android:text="人脸识别activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <ImageView
         android:layout_marginTop="150dp"
         android:layout_marginBottom="100dp"

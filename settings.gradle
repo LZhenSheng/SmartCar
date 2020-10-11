@@ -1,2 +1,4 @@
+include ':sdk'
+include ':ijkplayer'
 rootProject.name='SmartCar'
 include ':app'

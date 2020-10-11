@@ -1,5 +1,6 @@
 package com.example.smartcar.activity;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ import androidx.annotation.NonNull;
 
 import com.example.smartcar.activity.base.BaseActivity;
 import com.example.smartcar.R;
+import com.example.smartcar.face.IJKPlayerTestActivity;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -73,6 +75,15 @@ public class LoginActivity extends BaseActivity {
     EditText account;
     @BindView(R.id.password)
     EditText password;
+
+    @BindView(R.id.openFaceActivity)
+    Button openFaceActivity;
+
+    @OnClick(R.id.openFaceActivity)
+    public void OnClickOpenFaceActivity(){
+        Intent intent = new Intent(this, IJKPlayerTestActivity.class);
+        startActivity(intent);
+    }
 
     @OnClick(R.id.login)
     public void OnClick(){
